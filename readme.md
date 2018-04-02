@@ -147,7 +147,7 @@ In case of erroneous usage of the endpoints (missing IDs or objects for input) e
 
 Apart the three controllers an additional one (ErrorResponseController) handles the throwable exceptions in order to return a meaningful message to the user  and log the error to the server’s log.
 
-Testing
+### Testing
 As mentioned above, Unit tests with JUnit are testing the model layer’s functionality and database connectivity. Furthermore, integration testing via postman is also featured. A separate file (edet.postman_collection.json) is accompanying the current documentation which can be imported and executed in a postman application.
 
 ### Additional thoughts and notes
